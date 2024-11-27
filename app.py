@@ -22,7 +22,7 @@ if st.sidebar.button("BJT 시뮬레이터"):
 
 # MOSFET 3D 시뮬레이터
 if st.session_state.selected_device == "MOSFET_3D":
-    st.sidebar.header(⚙️ MOSFET 파라미터")
+    st.sidebar.header("⚙️ MOSFET 파라미터")
     st.sidebar.markdown("---")
     W = st.sidebar.slider("채널 폭 (W) [µm]", 0.1, 20.0, 1000.0, step=0.5)
     L = st.sidebar.slider("채널 길이 (L) [µm]", 0.01, 20.0, 10.0, step=0.5)
